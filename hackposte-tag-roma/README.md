@@ -26,8 +26,8 @@ How to get support:
 ## Technologies / Mentors
 
 Home page for featured technologies: https://postehack.stamplayapp.com/
-- Cisco Spark (Cloud API): Antonio Lombardi, Stève Sfartz (Cisco)
-- Tropo (Cloud API): Antonio Lombardi, Stève Sfartz (Cisco)
+- CiscoSpark & Tropo (Cloud API): Antonio Lombardi, Stève Sfartz (Cisco)
+    - [Deck on slideshare](http://www.slideshare.net/SteveSfartz/hackathon-poste-mobile-2016-cisco-roma-tag-talentgardenit)
 - CMX (using the Meraki infrastructure @TAG): Luca Lironi, Alessandro Oliveri (Cisco)
 - Stamplay: Alessandro, Claudio (from Stamplay)
 
