@@ -18,17 +18,18 @@ Twitter tags:
 How to improve the Customer Experience in the Postal Office.
 
 How to get support:
-    - Come to Cisco Meeting point and get your email address added to the “Hackathon support" Spark room. This is where you will get information and support  for the whole week-end.
-    - Register your email on Spark https://www.ciscospark.com/
-    - [Optional] install Spark on your laptop or Mobile : https://www.ciscospark.com/downloads.html
+- Come to Cisco Meeting point and get your email address added to the “Hackathon support" Spark room. This is where you will get information and support  for the whole week-end.
+- Register your email on Spark https://www.ciscospark.com/
+- [Optional] install Spark on your laptop or Mobile : https://www.ciscospark.com/downloads.html
+
 
 ## Technologies / Mentors
 
 Home page for featured technologies: https://postehack.stamplayapp.com/
-    - Cisco Spark (Cloud API): Antonio Lombardi, Stève Sfartz (Cisco)
-    - Tropo (Cloud API): Antonio Lombardi, Stève Sfartz (Cisco)
-    - CMX (using the Meraki infrastructure @TAG): Luca Lironi, Alessandro Oliveri (Cisco)
-    - Stamplay: Alessandro, Claudio (from Stamplay)
+- Cisco Spark (Cloud API): Antonio Lombardi, Stève Sfartz (Cisco)
+- Tropo (Cloud API): Antonio Lombardi, Stève Sfartz (Cisco)
+- CMX (using the Meraki infrastructure @TAG): Luca Lironi, Alessandro Oliveri (Cisco)
+- Stamplay: Alessandro, Claudio (from Stamplay)
 
 ### Cisco Spark API Starter Guide
 
