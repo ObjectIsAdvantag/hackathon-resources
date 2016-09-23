@@ -3,12 +3,21 @@
 Event page : https://www.eventbrite.it/e/biglietti-poste-hack-2nd-edition-26843665125?aff=es2 
 DevNet invitation : https://communities.cisco.com/events/1884
 
+Twitter tags: 
+- #postehack 
+- @Tropo, #CiscoTropo
+- @CiscoSparkDev, #CiscoSpark
+- @stamplay 
+- @CiscoDevNet 
+- @PosteNews 
+- @TalentGardenit
+
 
 ## Theme
 
 How to improve the Customer Experience in the Postal Office.
 
-How to get support 
+How to get support:
     - Come to Cisco Meeting point and get your email address added to the “Hackathon support" Spark room. This is where you will get information and support  for the whole week-end.
     - Register your email on Spark https://www.ciscospark.com/
     - [Optional] install Spark on your laptop or Mobile : https://www.ciscospark.com/downloads.html
