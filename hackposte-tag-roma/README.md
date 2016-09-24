@@ -1,7 +1,10 @@
 # About Hack Poste Mobile 2016 @TAG
 
+**How to improve the Customer Experience in the Postal Office**
+
 Event page: https://www.eventbrite.it/e/biglietti-poste-hack-2nd-edition-26843665125?aff=es2 
-Cisco DevNet event: https://communities.cisco.com/events/1884
+
+Cisco DevNet event promotion: https://communities.cisco.com/events/1884
 
 Twitter tags: 
 - #postehack 
@@ -13,12 +16,9 @@ Twitter tags:
 - @TalentGardenit
 
 
-## Theme
+## How to get support ?
 
-**How to improve the Customer Experience in the Postal Office**
-
-How to get support:
-- Come to Cisco Meeting point and get your email address added to the “Hackathon support" Spark room. This is where you will get information and support  for the whole week-end.
+- Come to Cisco Meeting point and get your email address added to the "PosteHack Support Cisco Stamplay @Talent Garden" room.  This is your 2nd place where to get information and support  for the whole week-end. Should I mention: 1st place is to reach to us directly !
 - Register your email on Spark https://www.ciscospark.com/
 - [Optional] install Spark on your laptop or Mobile : https://www.ciscospark.com/downloads.html
 
@@ -45,8 +45,8 @@ Home page for featured technologies: https://postehack.stamplayapp.com/
 1. Signup at tropo.com
 2. Create a Scripting application
 3. Either point to one of these script, or copy/paste one in the code editor (new script)
-	- If you want to build a Voice IVR, pick 
-	- If you want to send / receive SMS, pick
+	- If you want to build an IVR Voice Response , you can start from https://gist.githubusercontent.com/ObjectIsAdvantag/ae6c5181eccd194fc1bf79fc44b05e76/raw/tropo-IVR-hackposte-tag-2016.js
+	- If you want to send/receive SMS, you can start from https://gist.githubusercontent.com/ObjectIsAdvantag/bde432e0608a3a8e0fc4f2cd6301bf44/raw/tropo-SMS-bidirectional.js  
 4. Create your application
 5. Then pick one or several phone numbers
 	- if you do Voice Call, pick an Italian phone number 
@@ -57,10 +57,10 @@ Home page for featured technologies: https://postehack.stamplayapp.com/
 6. You're now ready to test your scripts. 
 7. If you chose an IVR, call your Tropo number. You'll be spoken the welcome message. If your number cannot be reached, retry in a few minutes to give time for Tropo to complete the provisionning.
 8. If you chose SMS, you need to do call the Tropo API with a GET method and query parameters.
-	• Look for the token url links at the bottom of your application page.
-	• Click show URL, and copy paste it in Postman
-	• Add the parameter phonenumber and your mobile number
-	• Click send to receive a SMS
+	- Look for the token url links at the bottom of your application page.
+	- Click show URL, and copy paste it in Postman
+	- Add the parameter phonenumber and your mobile number
+	- Click send to receive a SMS
 
 You're all set, now it is time to enhance your script. Here are a few resources to help you start:
 - Tropo-samples: https://github.com/tropo/tropo-samples 
