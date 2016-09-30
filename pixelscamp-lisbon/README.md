@@ -1,12 +1,13 @@
 # About Pixels Camp 2016 (Oct 6-8, Lisbon)
 
-## Cisco APIs Challenge
 
-> **Integrate Cisco APIs in your hack and win [Meraki Cloud Managed Wifi Hardware](https://meraki.cisco.com/products/wireless)**
->
+**Integrate Cisco APIs in your hack and win [Meraki Cloud Managed Wifi Hardware](https://meraki.cisco.com/products/wireless)**
+
 > - Tropo for phone communications (Voice & SMS)
 > - Meraki for Wifi integration (presence, location, landing page).
 > - Total prizes of up to 20 K€ of Meraki hardware
+
+check [Cisco APIs Challenge](#cisco-apis-challenge) below for details
 
 
 ## Event information
@@ -21,20 +22,6 @@ Twitter tags:
 - @Tropo, #CiscoTropo
 - @CiscoSparkDev, #CiscoSpark
 - @meraki, #meraki
-
-
-## Cisco APIs Challenge
-
-We'll give away one [Meraki Access Point Hardware]((https://meraki.cisco.com/products/wireless)) for each of the best prototypes embedding the Meraki & Tropo APIs,
-and for up to a total value of 20 K€ Meraki Hardware. 
-
-The Meraki technology lets you build outstanding applications by interacting with the Wifi Network.
-Here are the typical use cases :
-- detect presence from Mobile phones that have Wifi or Bluetooth activated,
-- customize the landing page as users join your Wifi Network
-- geo-locate your users via Wifi triangulation
-
-Read [support section below](#how-to-get-support) for more info on the technology.
 
 
 ## Cisco TechTalks
@@ -67,7 +54,21 @@ This turns the table of traditional security with a new approach where the defen
 being able to pivot through the criminal infrastructure.
 
 
-## How to get support
+## Cisco APIs Challenge
+
+We'll give away one [Meraki Access Point Hardware]((https://meraki.cisco.com/products/wireless)) for each of the best prototypes embedding the Meraki & Tropo APIs,
+and for up to a total value of 20 K€ Meraki Hardware. 
+
+The Meraki technology lets you build outstanding applications by interacting with the Wifi Network.
+Here are the typical use cases :
+- detect presence from Mobile phones that have Wifi or Bluetooth activated,
+- customize the landing page as users join your Wifi Network
+- geo-locate your users via Wifi triangulation
+
+Read [support section below](#how-to-get-support) for more info on the technology.
+
+
+### How to get support
 
 - Come to the Cisco Booth and get your email address added to the CiscoSpark room: "PixelsCamp Tek Support" room.  This is your 2nd place where to get information and support. Should we mention: 1st place is to reach to us directly !
 - Register your email on Spark https://www.ciscospark.com/
@@ -108,19 +109,11 @@ Moreover, [Tropo support](https://www.tropo.com/help/) is also free, 24/24, 7/7,
 
 You're all set, now it is time to enhance your script. 
 Here are a few resources to help you start:
-- Tropo-samples: https://github.com/tropo/tropo-samples 
-- Tropo-uses-cases: http://usecases.tropo.com/ 
-- Tropo-scripting-reference: https://www.tropo.com/docs/scripting/reference 
-- Tropo ChatOps: https://www.tropo.com/2016/06/devops-follow-tropo-spark/ 
-- Tropo/Spark workshop CLUS 2016: http://www.slideshare.net/CiscoDevNet/cisco-spark-tropo-api-workshop/5 
-
-
-
-### Meraki Starter Guide
-
-Here are the info to access the Meraki Wifi provided on-site:
-
-TBD
+- [Tropo-samples](https://github.com/tropo/tropo-samples) 
+- [Tropo-uses-cases](http://usecases.tropo.com/) 
+- [Tropo-scripting-reference](https://www.tropo.com/docs/scripting/reference) 
+- [Tropo ChatOps](https://www.tropo.com/2016/06/devops-follow-tropo-spark/) 
+- [Tropo/Spark workshop CLUS 2016](http://www.slideshare.net/CiscoDevNet/cisco-spark-tropo-api-workshop/5) 
 
 
 
@@ -140,3 +133,9 @@ Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room
 - Check [awesome resources](https://github.com/CiscoDevNet/awesome-ciscospark) to get code samples and SDKs in various languages,
 
 
+
+### Meraki Starter Guide
+
+Here are the info to access the Meraki Wifi provided on-site:
+
+TBD

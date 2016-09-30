@@ -47,9 +47,9 @@ Moreover, [Tropo support](https://www.tropo.com/help/) is also free, 24/24, 7/7,
 
 You're all set, now it is time to enhance your script. 
 Here are a few resources to help you start:
-- Tropo-samples: https://github.com/tropo/tropo-samples 
-- Tropo-uses-cases: http://usecases.tropo.com/ 
-- Tropo-scripting-reference: https://www.tropo.com/docs/scripting/reference 
-- Tropo ChatOps: https://www.tropo.com/2016/06/devops-follow-tropo-spark/ 
-- Tropo/Spark workshop CLUS 2016: http://www.slideshare.net/CiscoDevNet/cisco-spark-tropo-api-workshop/5 
+- [Tropo-samples](https://github.com/tropo/tropo-samples) 
+- [Tropo-uses-cases](http://usecases.tropo.com/) 
+- [Tropo-scripting-reference](https://www.tropo.com/docs/scripting/reference) 
+- [Tropo ChatOps](https://www.tropo.com/2016/06/devops-follow-tropo-spark/) 
+- [Tropo/Spark workshop CLUS 2016](http://www.slideshare.net/CiscoDevNet/cisco-spark-tropo-api-workshop/5) 
 
