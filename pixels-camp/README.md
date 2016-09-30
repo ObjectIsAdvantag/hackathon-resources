@@ -51,9 +51,9 @@ Typical use cases :
 - geo-locate your users via Wifi triangulation
  
 
-## Cisco TechTalk
+## Cisco TechTalks
 
-**An interactive Voice & Chat for the Pixel Camp event**
+### An interactive Voice & Chat for the Pixel Camp event
 
 Willing to be aware of your visitors journey in real-time ? 
 Or interact with end-users by sending and answering calls & text messages automatically ? 
@@ -71,7 +71,14 @@ as all examples can be translated to other languages.
 
 Worth adding the Tropo APIs is free for developers, and supports not only Javascript but also PHP, Ruby, Groovy and Python.
 
-Speakers: Stève Sfartz, Austin Hyland
+
+### Who Says That a Crystal Ball Is The Only Way To Predict Cyber-Attacks?
+
+Connecting the dots, being able to analyze a diverse set of information made of billions of pieces of discrete data allows to build the maps 
+that reveal where the malicious infrastructure is hidden and where the attacks are staged. 
+
+This turns the table of traditional security with a new approach where the defender takes the upper hand on the attacker, 
+being able to pivot through the criminal infrastructure.
 
 
 
