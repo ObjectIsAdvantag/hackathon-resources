@@ -19,7 +19,7 @@ Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room
 - Check [awesome resources](https://github.com/CiscoDevNet/awesome-ciscospark) to get code samples and SDKs in various languages,
 
 
-### Tropo Starter Guide
+## Tropo Starter Guide
 
 **Note that [Tropo](https://tropo.com) is free for developers, 
 everything you learn during the hackathon, you can reuse after.
