@@ -15,15 +15,15 @@ Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room
 - Sign in at [Spark for Developers] (https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your Spark API access token.
 - Take the [Using Rooms & Messages Learning Lab](https://developer.ciscospark.com/samples-tutorials.html) at DevNet - Cisco Developer Network,
 - [Experiment a Cisco Spark bot](https://github.com/ObjectIsAdvantag/sparkbot-webhook-samples) in nodejs,
-- [optional] import the [Cisco Spark collection](http://bit.ly/POSTMAN-SPARK-API) into Postman: launch postman, click import, choose import from link,
-- Check [awesome resources for Spark developers](https://github.com/CiscoDevNet/awesome-ciscospark) in various languages.
+- [optional] import the [Postman collection](https://github.com/CiscoDevNet/postman-ciscospark) for CiscoSpark to quickly generate code,
+- Check [awesome resources](https://github.com/CiscoDevNet/awesome-ciscospark) to get code samples and SDKs in various languages,
 
 
 ### Tropo Starter Guide
 
 **Note that [Tropo](https://tropo.com) is free for developers, 
 everything you learn during the hackathon, you can reuse after.
-Moreover, [Tropo support](https://www.tropo.com/help/) is also free, 24/24, 7/7, via IRC or [email](mailto:tropo@support.com)**
+Moreover, [Tropo support](https://www.tropo.com/help/) is also free, 24/24, 7/7, via IRC or [email](mailto:support@tropo.com)**
 
 1. Signup at [Tropo.com](https://tropo.com)
 2. Create a Scripting application
