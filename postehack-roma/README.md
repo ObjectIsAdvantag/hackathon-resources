@@ -1,4 +1,4 @@
-# About Hack Poste Mobile 2016 @TAG
+# About PosteHack Mobile @TAG (Sept 23-25, Roma)
 
 **How to improve the Customer Experience in the Postal Office**
 

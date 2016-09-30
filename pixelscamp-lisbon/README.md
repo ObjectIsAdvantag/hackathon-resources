@@ -1,4 +1,4 @@
-# About Pixels Camp 2016
+# About Pixels Camp 2016 (Oct 6-8, Lisbon)
 
 ## Cisco APIs Challenge
 
@@ -23,29 +23,18 @@ Twitter tags:
 - @meraki, #meraki
 
 
-## How to get support ?
+## Cisco APIs Challenge
 
-- Come to the Cisco Booth and get your email address added to the CiscoSpark room: "PixelsCamp Tek Support" room.  This is your 2nd place where to get information and support. Should we mention: 1st place is to reach to us directly !
-- Register your email on Spark https://www.ciscospark.com/
-- [Optional] install Spark on your laptop or Mobile : https://www.ciscospark.com/downloads.html
-
-Here are the technologies featured for the whole event, and related mentors:
-
-- CiscoSpark (messaging, calls and meetings platform): Austin Hyland, John Higgins, Stève Sfartz (Cisco)
-- Tropo (Phone communication API): Austin Hyland, John Higgins, Stève Sfartz (Cisco)
-- Meraki (Wifi API): Rui Bras Fernandes, Stève Sfartz  (Cisco)
-
-
-## Meraki Challenge
-
-we'll give away one Meraki Access Points for each of the best prototypes built with the Meraki technology, and for up to a total value of 20 K€, 
+We'll give away one [Meraki Access Point Hardware]((https://meraki.cisco.com/products/wireless)) for each of the best prototypes embedding the Meraki & Tropo APIs,
+and for up to a total value of 20 K€ Meraki Hardware. 
 
 The Meraki technology lets you build outstanding applications by interacting with the Wifi Network.
-
-Typical use cases :
+Here are the typical use cases :
 - detect presence from Mobile phones that have Wifi or Bluetooth activated,
 - customize the landing page as users join your Wifi Network
 - geo-locate your users via Wifi triangulation
+
+Read [support section below](#how-to-get-support) for more info on the technology.
 
 
 ## Cisco TechTalks
@@ -78,23 +67,20 @@ This turns the table of traditional security with a new approach where the defen
 being able to pivot through the criminal infrastructure.
 
 
-## Cisco Spark API Starter Guide
+## How to get support
 
-**Note that Cisco Spark trial gives you free chating, calls to other Spark users, and meetings in room with up to 3 members, 
-everything you learn during the hackathon about Spark API, you can reuse after.
-Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room](https://developer.ciscospark.com/support.html)**
+- Come to the Cisco Booth and get your email address added to the CiscoSpark room: "PixelsCamp Tek Support" room.  This is your 2nd place where to get information and support. Should we mention: 1st place is to reach to us directly !
+- Register your email on Spark https://www.ciscospark.com/
+- [Optional] install Spark on your laptop or Mobile : https://www.ciscospark.com/downloads.html
 
-- Sign up for [Cisco Spark](https://www.ciscospark.com/) and get access to the Spark Web client (available on for all OS)
-- [optional] [Install a Spark client](https://www.ciscospark.com/downloads.html) on your laptop and/or mobile phone, and get instant access everywhere
+Here are the technologies featured for the whole event, and related mentors:
 
-- Sign in at [Spark for Developers] (https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your Spark API access token.
-- Take the [Using Rooms & Messages Learning Lab](https://developer.ciscospark.com/samples-tutorials.html) at DevNet - Cisco Developer Network,
-- [Experiment a Cisco Spark bot](https://github.com/ObjectIsAdvantag/sparkbot-webhook-samples) in nodejs,
-- [optional] import the [Postman collection](https://github.com/CiscoDevNet/postman-ciscospark) for CiscoSpark to quickly generate code,
-- Check [awesome resources](https://github.com/CiscoDevNet/awesome-ciscospark) to get code samples and SDKs in various languages,
+- Tropo (Phone communication API): Austin Hyland, John Higgins, Stève Sfartz (Cisco)
+- Meraki (Wifi API): Rui Bras Fernandes, Stève Sfartz  (Cisco)
+- CiscoSpark (messaging, calls and meetings platform): Austin Hyland, John Higgins, Stève Sfartz (Cisco)
 
 
-## Tropo Starter Guide
+### Tropo Starter Guide
 
 **Note that [Tropo](https://tropo.com) is free for developers, 
 everything you learn during the hackathon, you can reuse after.
@@ -130,5 +116,27 @@ Here are a few resources to help you start:
 
 
 
+### Meraki Starter Guide
+
+Here are the info to access the Meraki Wifi provided on-site:
+
+TBD
+
+
+
+### Cisco Spark API Starter Guide
+
+**Note that Cisco Spark trial gives you free chating, calls to other Spark users, and meetings in room with up to 3 members, 
+everything you learn during the hackathon about Spark API, you can reuse after.
+Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room](https://developer.ciscospark.com/support.html)**
+
+- Sign up for [Cisco Spark](https://www.ciscospark.com/) and get access to the Spark Web client (available on for all OS)
+- [optional] [Install a Spark client](https://www.ciscospark.com/downloads.html) on your laptop and/or mobile phone, and get instant access everywhere
+
+- Sign in at [Spark for Developers] (https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your Spark API access token.
+- Take the [Using Rooms & Messages Learning Lab](https://developer.ciscospark.com/samples-tutorials.html) at DevNet - Cisco Developer Network,
+- [Experiment a Cisco Spark bot](https://github.com/ObjectIsAdvantag/sparkbot-webhook-samples) in nodejs,
+- [optional] import the [Postman collection](https://github.com/CiscoDevNet/postman-ciscospark) for CiscoSpark to quickly generate code,
+- Check [awesome resources](https://github.com/CiscoDevNet/awesome-ciscospark) to get code samples and SDKs in various languages,
 
 
