@@ -1,11 +1,11 @@
 if (!currentCall) { // No tropo session yet => this is an outgoing call initiated via Tropo token url
-    var offset = +2;  // CET+2
+    var offset = 2;  // CET+2
     var now = new Date(Date.now() + (3600000 * offset));
     call(phonenumber);
     say("it is now " + now.getHours() + ":" + now.getMinutes() + " in Paris, Rome, Madrid, Berlin, Zurich and Amsterdam.");
     wait(500);
 
-    offset = +1;  // CET+1
+    offset = 1;  // CET+1
     now = new Date(Date.now() + (3600000 * offset));
     say("note that it is now " + now.getHours() + ":" + now.getMinutes() + " in Lisbon, London and Dublin.");
 }
