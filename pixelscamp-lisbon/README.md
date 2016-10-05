@@ -65,7 +65,7 @@ Here are the typical use cases :
 - customize the landing page as users join your Wifi Network
 - geo-locate your users via Wifi triangulation
 
-Read [support section below](#how-to-get-support) for more info on the technology.
+Read [support section below](#how-to-get-support) for more info about [Cisco Spark](#cisco-spark-api-starter-guide), [Tropo](#tropo-starter-guide) & [Meraki](#meraki-starter-guide) APIs.
 
 
 ### How to get support
@@ -136,6 +136,15 @@ Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room
 
 ### Meraki Starter Guide
 
-Here are the info to access the Meraki Wifi provided on-site:
+**Cisco Meraki lets you build outstanding applications that interact with the Wifi Network.
+Popular use cases include: detect presence from Mobile phones that have Wifi or Bluetooth activated, customize the landing page as users join your Wifi Network, or geo-locate your users via Wifi triangulation**
+
+- Sign up at [Meraki](http://developers.meraki.com/apply) and get access to the Meraki dashboard. The Meraki Cloud Management platform _the Meraki dashboard_ makes it easy to configure your Wifi networks, view analytics, and connect your applications.
+
+- Get started thanks the [Meraki APIs resources for developers](http://developers.meraki.com/start), and go through the [Hackathon resources](http://developers.meraki.com/hackathon)
+
+
+Here are the info to access the Meraki setup provided on-site:
 
 TBD
+
