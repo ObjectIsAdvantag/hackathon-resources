@@ -7,7 +7,9 @@
 > - Meraki for Wifi integration (presence, location, landing page).
 > - Total prizes of up to 20 K€ of Meraki hardware
 
-check [Cisco APIs Challenge](#cisco-apis-challenge) below for details
+Read through the [Cisco APIs Challenge](#cisco-apis-challenge) below for details
+
+**Give a try to the Tropo IVR by calling +351308801061, and [check the code](https://github.com/ObjectIsAdvantag/pixelscamp2006)**
 
 
 ## Event information
@@ -143,8 +145,65 @@ Popular use cases include: detect presence from Mobile phones that have Wifi or 
 
 - Get started thanks the [Meraki APIs resources for developers](http://developers.meraki.com/start), and go through the [Hackathon resources](http://developers.meraki.com/hackathon)
 
+- Deploy the [CMX location data receiver](https://github.com/ObjectIsAdvantag/cmxreceiver) on your favorite platform, and come to the Cisco booth to get registered, and share your Meraki Validator key and Webhook secret.
 
-Here are the info to access the Meraki setup provided on-site:
+- You'll then get access to the JSON location payload about every minute:
 
-TBD
+``` json
+Secret verified
+JSON Feed: {
+  "version": "2.0",
+  "secret": "VERY_SECRET",
+  "type": "DevicesSeen",
+  "data": {
+    "apMac": "00:18:0a:33:79:5c",
+    "apFloors": [],
+    "apTags": [
+      "",
+      "recently-added",
+      ""
+    ],
+    "observations": [
+      {
+        "ipv4": null,
+        "location": {
+          "lat": 38.702158703698416,
+          "lng": -9.17837793007493,
+          "unc": 29.510372063481228,
+          "x": [],
+          "y": []
+        },
+        "seenTime": "2016-10-07T06:55:20Z",
+        "ssid": null,
+        "os": null,
+        "clientMac": "38:71:de:81:5e:61",
+        "seenEpoch": 1475823320,
+        "rssi": 36,
+        "ipv6": null,
+        "manufacturer": "Apple"
+      },
+      {
+        "ipv4": null,
+        "location": {
+          "lat": 38.702158703698416,
+          "lng": -9.17837793007493,
+          "unc": 27.667815359956506,
+          "x": [],
+          "y": []
+        },
+        "seenTime": "2016-10-07T06:55:19Z",
+        "ssid": null,
+        "os": null,
+        "clientMac": "58:82:a8:af:e8:15",
+        "seenEpoch": 1475823319,
+        "rssi": 22,
+        "ipv6": null,
+        "manufacturer": "Microsoft"
+      },
+      ...
+    ]
+  }
+}
+```
+
 
