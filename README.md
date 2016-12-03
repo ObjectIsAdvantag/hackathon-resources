@@ -3,7 +3,9 @@
 Resources for various hackathons and conferences I happened to support
 
 
-## Cisco Spark Starter Guide
+# Cisco Spark Cloud Collaboration APIs
+
+## Cisco Spark Starter Guide (Chat, Calls, Meetings)
 
 **Note that Cisco Spark trial gives you free Chating, Audio & Video calls to other Spark users, and meetings with up to 3 members (Chat, Video, Shared-board), 
 everything you learn during the hackathon about Spark API, you can reuse after.
@@ -11,18 +13,20 @@ Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room
 
 - Sign up for [Cisco Spark](https://www.ciscospark.com/) and reach to [Cisco Spark Web client](https://web.ciscospark.com/)
 - [optional] [Install a Spark client](https://www.ciscospark.com/downloads.html) on your laptop and/or mobile phone, and get instant access from all your devices
-
 - Sign in at [Spark for Developers] (https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your API access token.
 
+- Take the  [Cisco Spark Learning Track](https://learninglabs.cisco.com/tracks/collab-cloud) to learn to automate Cisco Spark and create Cisco Spark Applications (bots, OAUTH integrations).
 - Take the [Using Rooms & Messages Learning Lab](https://developer.ciscospark.com/samples-tutorials.html) at DevNet - Cisco Developer Network,
 - [Experiment a Cisco Spark bot](https://github.com/ObjectIsAdvantag/sparkbot-webhook-samples) in nodejs,
 - [optional] import the [Postman collection](https://github.com/CiscoDevNet/postman-ciscospark) for CiscoSpark to quickly generate code,
 - Check [awesome resources](https://github.com/CiscoDevNet/awesome-ciscospark) to get code samples and SDKs in various languages,
+- Look for more resources in the [Sparkers'community on devNet](https://developer.cisco.com/site/spark).
 
 
-## Tropo Starter Guide
+## Tropo Starter Guide (Voice & SMS phone communications)
 
-**Note that [Tropo](https://tropo.com) is free for developers, 
+**Tropo is a set of Cloud APIs to add phone communications capabilities to your applications: Voice and SMS. 
+Note that [Tropo](https://tropo.com) is free for developers, 
 everything you learn during the hackathon, you can reuse after.
 Moreover, [Tropo support](https://www.tropo.com/help/) is also free, 24/24, 7/7, via IRC or [email](mailto:support@tropo.com)**
 
