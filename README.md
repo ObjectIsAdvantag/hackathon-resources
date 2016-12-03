@@ -1,18 +1,19 @@
 # Hackathon Resources
 
-Resources for various hackathons I happened to support
+Resources for various hackathons and conferences I happened to support
 
 
 ## Cisco Spark Starter Guide
 
-**Note that Cisco Spark trial gives you free chating, calls to other Spark users, and meetings in room with up to 3 members, 
+**Note that Cisco Spark trial gives you free Chating, Audio & Video calls to other Spark users, and meetings with up to 3 members (Chat, Video, Shared-board), 
 everything you learn during the hackathon about Spark API, you can reuse after.
 Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room](https://developer.ciscospark.com/support.html)**
 
-- Sign up for [Cisco Spark](https://www.ciscospark.com/) and get access to the Spark Web client (available on for all OS)
-- [optional] [Install a Spark client](https://www.ciscospark.com/downloads.html) on your laptop and/or mobile phone, and get instant access everywhere
+- Sign up for [Cisco Spark](https://www.ciscospark.com/) and reach to [Cisco Spark Web client](https://web.ciscospark.com/)
+- [optional] [Install a Spark client](https://www.ciscospark.com/downloads.html) on your laptop and/or mobile phone, and get instant access from all your devices
 
-- Sign in at [Spark for Developers] (https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your Spark API access token.
+- Sign in at [Spark for Developers] (https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your API access token.
+
 - Take the [Using Rooms & Messages Learning Lab](https://developer.ciscospark.com/samples-tutorials.html) at DevNet - Cisco Developer Network,
 - [Experiment a Cisco Spark bot](https://github.com/ObjectIsAdvantag/sparkbot-webhook-samples) in nodejs,
 - [optional] import the [Postman collection](https://github.com/CiscoDevNet/postman-ciscospark) for CiscoSpark to quickly generate code,
