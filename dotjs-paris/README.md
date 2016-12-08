@@ -2,9 +2,9 @@
 
 **Meet the Cisco DevNet evangelists at the booth**
 
-Steve Sfartz (@SteveSfartz)
-Tessa Mero (@tessamero)
-Ashley Roach (@aroach)
+* Steve Sfartz (@SteveSfartz)
+* Tessa Mero (@tessamero)
+* Ashley Roach (@aroach)
 
 
 ## DotJS demo pod Talk
