@@ -1,4 +1,4 @@
-# dotJS.io 2016
+# dotJS.io 2016 - Paris (dec 5th)
 
 **Meet the Cisco DevNet evangelists at the booth**
 
