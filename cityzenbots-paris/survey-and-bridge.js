@@ -313,13 +313,13 @@ if (currentCall) {
         wait(500);
         say("In order take the survey, text your expectations to this number.");
         wait(500);
-        say("Type 1 if you have an idea and you hope other participants will join you");
+        say("Text 1 if you have an idea and you hope other participants will join you");
         wait(500);
-        say("Type 2 if you don't have an idea and you are looking forward to join an existing team");
+        say("Text 2 if you don't have an idea and you are looking forward to join an existing team");
         wait(500);
-        say("Type 3 if you're good: you have both an idea and a team to hack with");
+        say("Text 3 if you're good: you have both an idea and a team to hack with");
         wait(500);
-        say("Type 4 if none of the above fits you, anyway we're happy to have you in");
+        say("Text 4 if none of the above fits you, anyway we're happy to have you in");
         
         wait(100);
         say("Hope you'll have fun, Good bye");
