@@ -1,0 +1,31 @@
+{
+  "id": "8d2a495e-d329-40ba-3b45-9cc4716f7424",
+  "name": "smartcity Hackathon Pnda API",
+  "values": [
+    {
+      "key": "gwHttpsApi",
+      "value": "https://173.39.240.235",
+      "type": "text",
+      "enabled": true,
+      "hovered": false
+    },
+    {
+      "key": "gwHttpsPort",
+      "value": "8444",
+      "type": "text",
+      "enabled": true,
+      "hovered": false
+    },
+    {
+      "key": "gwAuthHeader",
+      "value": "ToBeDefined",
+      "type": "text",
+      "enabled": true,
+      "hovered": false
+    }
+  ],
+  "timestamp": 1479748033659,
+  "_postman_variable_scope": "environment",
+  "_postman_exported_at": "2016-11-21T17:28:45.821Z",
+  "_postman_exported_using": "Postman/4.8.3"
+}

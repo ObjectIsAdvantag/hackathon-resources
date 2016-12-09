@@ -16,6 +16,7 @@ Event Twitter tags:
 - @CiscoSparkDev, @CiscoSpark
 - @Tropo
 - @Meraki
+- @pndaproject
 
 
 ## How to get support ?
@@ -43,7 +44,7 @@ Reach to them on-site, or simply mention them in the CityZen Bots sypport room b
 - IoX:
 - IoT:
 - Meraki: 
-- PaNDA:
+- PaNDA: @fbachet, @jegarnie
 - Tropo:
 
 - Recast.ai: 
@@ -109,4 +110,8 @@ If you're coding on your local machine, you will want to choose an option below
 
 
 
+# Pnda
 
+If you want to get more information regarding PNDA, you can check the PNDA website [pnda.io](http://pnda.io/) and the Github [pndaproject](https://github.com/pndaproject)
+
+Also, please find some information regarding the data set available for the hackathon [PNDA dataset](./pnda/data-set.md)
