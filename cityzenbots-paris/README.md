@@ -97,10 +97,29 @@ Make sure to register on the portal if you want to pretend to a Meraki gear as y
 
 Meraki provides APIs connected with its cloud-based network architecture. 
 The CMX / location API is featured for this hackathon.
-The CMX API provides the locations of Wifi devices it sees on the network.
+The CMX API provides the locations of Wifi and BLE devices it sees on the network.
 By registering an endpoint, you will receive a JSON payload every minute, and for each Access Point.  
 
 The payload structure is [described here](http://developers.meraki.com/tagged/Location/chrono).
+
+#### Sample Applications
+* Node-Red Node: https://www.npmjs.com/package/node-red-contrib-meraki-cmx
+* Python CMX Receiver: https://github.com/dexterlabora/cmxreceiver-python
+* NodeJS CMX Receiver: https://github.com/dexterlabora/cmxreceiver
+* Ruby w/ Google Map: https://github.com/meraki/cmx-api-app
+* AWS Lambda & Kibana: https://github.com/dexterlabora/cmxreceiver-lambda-inline
+
+#### Learning Lab
+* Internet of LEGO: http://www.internetoflego.com/category/projects/meraki/
+
+### BLE Beacons
+
+Meraki APs can advertise BLE beacons, also known as iBeacons, that enable clients to identify their location. Each AP will broadcase a UUID, Major and Minor ID, as well as their MAC address. A client, such as an iPhone, can use this information to trigger location aware services.
+
+* UUID: 71388410-471b-40dd-8984-c45a38dd4cfe
+* Major: 6
+* Minor: 1
+
 
 Contact a Meraki mentor to have your endpoint start receiving the location payloads.
 
