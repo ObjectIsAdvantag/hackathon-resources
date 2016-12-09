@@ -40,36 +40,17 @@ Reach to them on-site, or simply mention them in the CityZen Bots sypport room b
 
 - Cisco Spark: @rcronier, @omainada, @dhedoire, @stsfartz, @jonfiel, @ryweddle
 - Cisco Spark (Java SDK): @jmedved, @johnburn
-- IoX:
-- IoT:
-- Meraki: 
-- PaNDA:
-- Tropo:
+- IoX: 
+- IoT: @gfeige, @dgaumont
+- Meraki: @gfeige, @dgaumont, @cguynn
+- PaNDA: 
+- Tropo: @rcronier, @omainada, @dhedoire, @stsfartz, @jonfiel, @ryweddle
 
 - Recast.ai: 
 - Spinalcom: 
 
 
 # Technologies
-
-## Tropo
-
-If you are new to Tropo, [read through these resources](https://github.com/ObjectIsAdvantag/hackathon-resources#tropo-starter-guide-voice--sms-phone-communications) to quickly onboard.
-
-As a complement to the online tutorials, you can also take one of these Tropo labs to [build Voice, SMS and Voice + SMS applications](https://github.com/CiscoDevNet/codemotion-milan-2016#add-sms-and-voice-to-your-apps-using-tropo-apis).
-
-
-**During the event, we will activate your Tropo account for Outbound SMS and Calls.**
-
-Submit your Tropo accout number in the Cisco Spark room to be activated. 
-
-
-**Morever, we will provide phone numbers in France, for use cases that require this feature.**
-
-These Tropo phone numbers for France are Voice and Text enabled, and bidirectional.
-
-Reach to a Tropo mentor and explain your use case, in order to attach a French number to your application.
-
 
 ## Cisco Spark
 
@@ -108,5 +89,37 @@ If you're coding on your local machine, you will want to choose an option below
 - deploy on a Cloud platform of your choice: you may opt for Heroku free dynos service, or CleverCloud free trial. Check this tutorial to [deploy on Heroku](https://github.com/CiscoDevNet/codemotion-milan-2016/blob/master/labs/SPARK-5-Deploy-a-Cisco-Spark-Integration.pdf) (the guidance is for Cisco Spark integration but the deployment phase is the same for bots).
 
 
+## Meraki
 
+If you are new to Meraki APIs, check the [Meraki Web site for developers](http://developers.meraki.com/).
+Make sure to register on the portal if you want to pretend to a Meraki gear as you used the technology in your hack.
+
+Meraki provides APIs connected with its cloud-based network architecture. 
+The CMX / location API is featured for this hackathon.
+The CMX API provides the locations of Wifi devices it sees on the network.
+By registering an endpoint, you will receive a JSON payload every minute, and for each Access Point.  
+
+The payload structure is [described here](http://developers.meraki.com/tagged/Location/chrono).
+
+
+Contact a Meraki mentor to have your endpoint start receiving the location payloads.
+
+
+## Tropo
+
+If you are new to Tropo, [read through these resources](https://github.com/ObjectIsAdvantag/hackathon-resources#tropo-starter-guide-voice--sms-phone-communications) to quickly onboard.
+
+As a complement to the online tutorials, you can also take one of these Tropo labs to [build Voice, SMS and Voice + SMS applications](https://github.com/CiscoDevNet/codemotion-milan-2016#add-sms-and-voice-to-your-apps-using-tropo-apis).
+
+
+**During the event, we will activate your Tropo account for Outbound SMS and Calls.**
+
+Submit your Tropo accout number in the Cisco Spark room to be activated. 
+
+
+**Morever, we will provide phone numbers in France, for use cases that require this feature.**
+
+These Tropo phone numbers for France are Voice and Text enabled, and bidirectional.
+
+Reach to a Tropo mentor and explain your use case, in order to attach a French number to your application.
 
