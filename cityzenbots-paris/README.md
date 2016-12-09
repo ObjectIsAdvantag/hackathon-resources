@@ -24,7 +24,7 @@ On-site support is provided by our team of mentors, see below.
 
 You can also get support via the Cisco Spark Support Room.
 To join the room, simply text your email at +33-7-56-7801-50 or 07-56-78-01-50.
-
+Check the [Tropo script](survey-and-bridge.js) if you're looking for inspiration. 
 
 If you're new to Cisco Spark, you'll receive an invitation email.
 Check your spam folder, if the invitaiton does not reach your mailbox after a few minutes.
