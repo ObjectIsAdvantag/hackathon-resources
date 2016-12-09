@@ -2,17 +2,17 @@
 
 To learn more about the hackaton, check the [event page](http://cityzenbotshackathon.bemyapp.com/)
 
-In a nutshell, you have 48 hours to build your awesome hack.and win the big prize.
+In a nutshell, you have 48 hours to build your awesome hack, and win the big prize.
 Note that:
-- a team is composed of 2 ot 6 persons, 
-- best use of Cisco Technologies is an important criteria. 
+- a team is composed of 2 to 6 persons, 
+- best use of Cisco Technologies is an important criteria among others (Execution/UI/UX, Innovation, Business Potential, Team/pitch), [hackathon rules](https://docs.google.com/document/d/1XAuNx0UaJKlNqss2CX9MvtZkZnw1QqG6i3wIm31-3gc/edit). 
 
 New to Cisco, no problem, we're here to help.
 You'll find below the list of mentors and resources for each technology we provide.
 
 Event Twitter tags: 
 - #cityzenbots, #devnethackathon 
-- @CiscoDevNet, @bemyapp
+- @CiscoDevNet, @BeMyAppFR
 - @CiscoSparkDev, @CiscoSpark
 - @Tropo
 - @Meraki
