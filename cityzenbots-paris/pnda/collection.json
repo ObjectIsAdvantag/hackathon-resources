@@ -1,0 +1,922 @@
+{
+	"variables": [],
+	"info": {
+		"name": "paris Hackathon CIS Amsterdam",
+		"_postman_id": "17653403-472f-f634-405e-cf067bcba855",
+		"description": "Public API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "0.Measurement zones",
+			"description": "",
+			"item": [
+				{
+					"name": "List air sensors",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/dl/cmx/aqi-measurementpoints.json",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Retrieve a json array of air quality sensors including location and pollutants measured.\n\nValues are updated several times per hour for Libellium based sensors.\n\nValues are updated every minute for City trees."
+					},
+					"response": []
+				},
+				{
+					"name": "List video zones",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/dl/cmx/video-measurementpoints.json",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Retrieve a json array of geo zones where video count analytics are in action.\nFor each zone, we return the location, the type of entity counted (pedestrian, bike, vehicle) and the type of zone (occupancy or turnstyle).\n\nTypical measurement delays:\n- 1 minute delayed from real time\n- 1 minute time unit for computing analytics"
+					},
+					"response": []
+				},
+				{
+					"name": "List WiFi access points",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/dl/cmx/wifi-measurementpoints.json",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Retrieve a json array of geo zones where video count analytics are in action.\nA SSID is announced. WiFi devices are detected using PROBE. Each time a device is detected, an event is produced.\n\nTypical measurement delays:\n- between 2 and 5 seconds\n"
+					},
+					"response": []
+				},
+				{
+					"name": "List noise sensors",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/dl/cmx/wifi-measurementpoints.json",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Retrieve a json array of noise sensors including their location.\n\nAt the API level, \nTypical measurement delays:\n- Delay from real time: between 5 and 10 minutes\n- data per minute\n"
+					},
+					"response": []
+				},
+				{
+					"name": "List zones bad",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/dl/cmx/aqi-measurementpoint.json",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Check an error is returned when using bad API endpoints"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "1.Air Quality",
+			"description": "",
+			"item": [
+				{
+					"name": "pm25 Forbidden",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.pm25%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "GET API for external access with api key\n\nWe are not authorized to give free access to those data."
+					},
+					"response": []
+				},
+				{
+					"name": "pm1 Forbidden",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.pm1%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "\nWe are not authorized to give free access to those data."
+					},
+					"response": []
+				},
+				{
+					"name": "pm10 Forbidden",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.pm10%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "\nWe are not authorized to give free access to those data."
+					},
+					"response": []
+				},
+				{
+					"name": "Get Air Quality index (aqi) value ",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.aqi%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Provided for Libellium sensor only\n\nAQI value range: between 1 (excellent) and 10 (really bad)"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Humidity",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.rh%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Humidity (in percent)"
+					},
+					"response": []
+				},
+				{
+					"name": "Get Pressure",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.pressure%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Pressure in Pascal"
+					},
+					"response": []
+				},
+				{
+					"name": "Get CO",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.co%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "in PPB"
+					},
+					"response": []
+				},
+				{
+					"name": "Get O3",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.o3%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "in PPB"
+					},
+					"response": []
+				},
+				{
+					"name": "Get NO2",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.no2%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "in PPB"
+					},
+					"response": []
+				},
+				{
+					"name": "Get SO2",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.so2%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "in PPB"
+					},
+					"response": []
+				},
+				{
+					"name": "Get temperature",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:breezometer.temp%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "in deg Celsius"
+					},
+					"response": []
+				},
+				{
+					"name": "Downsample temperature",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=2016/11/15-00:00:00&end=2016/11/15-23:59:59&m=sum:60m-avg-zero:breezometer.temp%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Compute avg value over interval of period of time between 2 dates"
+					},
+					"response": []
+				},
+				{
+					"name": "Get max temperature over 2 dates",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=2016/11/15-00:00:00&end=2016/11/15-23:59:59&m=max:24h-max-zero:breezometer.temp%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Get the max value over interval of period of time between 2 dates"
+					},
+					"response": []
+				},
+				{
+					"name": "Get min temperature over 2 dates",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=2016/11/15-00:00:00&end=2016/11/15-23:59:59&m=min:24h-min-zero:breezometer.temp%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Get themin value over interval of period of time between 2 dates"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "2.Video Count",
+			"description": "Video analytics\nGet time series data per zone, entity, class",
+			"item": [
+				{
+					"name": "video count last 15 minutes all zones",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=15m-ago&m=sum:placemeter.ped%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "GET API for external access with api key"
+					},
+					"response": []
+				},
+				{
+					"name": "pedestrian count over last 15 minutes for one particuliar",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=15m-ago&m=sum:placemeter.ped%7Bhost=6182%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Set a zone id in the query"
+					},
+					"response": []
+				},
+				{
+					"name": "pedestrian count over last 15 minutes for one particuliar copy",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=15m-ago&m=sum:placemeter.all%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Set a zone id in the query"
+					},
+					"response": []
+				},
+				{
+					"name": "pedestrian count between two dates for one particuliar zone",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=2016/11/15-00:00:00&end=2016/11/15-00:15:00&m=sum:placemeter.all%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Set a zone id in the query\nSet start criteria\nSet end criteria"
+					},
+					"response": []
+				},
+				{
+					"name": "Sum pedestrian count between two dates for one particuliar zone copy",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=2016/11/15-00:00:00&end=2016/11/15-23:59:59&m=sum:24h-sum-zero:placemeter.all%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Set a zone id in the query\nSet start criteria\nSet end criteria"
+					},
+					"response": []
+				},
+				{
+					"name": "Count vehicle for one particular direction",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=2016/11/15-00:00:00&end=2016/11/15-23:59:59&m=sum:24h-sum-zero:placemeter.vehicle%7Bhost=6188,class=direction_1%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Set a zone id in the query\nSet a class\nSet start criteria\nSet end criteria"
+					},
+					"response": []
+				},
+				{
+					"name": "Count bicycle for one particular direction ",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=2016/11/15-00:00:00&end=2016/11/15-23:59:59&m=sum:24h-sum-zero:placemeter.bike%7Bhost=6188,class=direction_1%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Set a zone id in the query\nSet a class\nSet start criteria\nSet end criteria"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "3.Noise Data",
+			"description": "",
+			"item": [
+				{
+					"name": "Average noise pressure over the last 30 minutes",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=15m-ago&m=sum:bruitparif.laeq_1mn%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Get laeq 1mn values\n\nValue in dB"
+					},
+					"response": []
+				},
+				{
+					"name": "Max noise pressure over the last 30 minutes ",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=15m-ago&m=sum:bruitparif.max_laeq_1s%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Get max laeq 1s values\n\nValue in dB"
+					},
+					"response": []
+				},
+				{
+					"name": "Min noise pressure over the last 30 minutes  copy",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=15m-ago&m=sum:bruitparif.min_laeq_1s%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Get min laeq 1s values\n\nValue in dB"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "5.WiFi",
+			"description": "Get time series per access points",
+			"item": [
+				{
+					"name": "Daily WiFi events captured",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/dl/cmx/2016-02-22.csv.gz",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "CSV file download\n\nCSV file \n\nRecord:\nNo CSV header. One record per line. 8 attributes:\n•  Access Point Mac Address\n•  Timestamp\n•  Mac Address for the device (anonymous,but same value over period)\n•  Manufacturer(network board)\n•  Latitude\n•  Longitude\n•  Uncertainty about the measure (unit: meter)\n•  Strength of the signal"
+					},
+					"response": []
+				},
+				{
+					"name": "Get count for all access points",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=60m-ago&m=sum:meraki.count%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Number of counted devices\n\n\nWarning - Response:\nhost : refers to access point mac address. '-' shall be replaced by ':'"
+					},
+					"response": []
+				},
+				{
+					"name": "Get daily count for all access points ",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=2016/11/15-00:00:00&end=2016/11/15-23:59:59&m=sum:24h-sum-zero:meraki.count%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Number of counted devices for a whole day\n\nWarning - Response:\nhost : refers to access point mac address. '-' shall be replaced by ':'"
+					},
+					"response": []
+				},
+				{
+					"name": "Get daily count for one access point",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=2016/11/15-00:00:00&end=2016/11/15-23:59:59&m=sum:24h-sum-zero:meraki.count%7Bhost=88-15-44-2d-20-aa%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "Number of counted devices for a whole day\n\n\nWarning - Query:\nWhen setting access point mac address into the host tag, replace ':' with '-' in the mac address string\n\nWarning - Response:\nhost : refers to access point mac address. '-' shall be replaced by ':'"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "x.API errors",
+			"description": "",
+			"item": [
+				{
+					"name": "video count Bad Key",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query?start=1h-ago&m=sum:placemeter.all%7Bhost=*%7D",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "thisisabadkey",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "GET API for external access with api key"
+					},
+					"response": []
+				},
+				{
+					"name": "Bad request",
+					"request": {
+						"url": "{{gwHttpsApi}}:{{gwHttpsPort}}/api/query",
+						"method": "GET",
+						"header": [
+							{
+								"key": "X-TSAPI-TOKEN",
+								"value": "{{gwAuthHeader}}",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"description": "GET API for external access with api key"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}ꎣﾣꎣﾣꎣﾣꎣﾣꎣﾣꎣﾣꎣﾣꎣﾣꎣﾣꎣﾣꎣﾣꎣﾣ

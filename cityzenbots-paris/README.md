@@ -16,6 +16,7 @@ Event Twitter tags:
 - @CiscoSparkDev, @CiscoSpark
 - @Tropo
 - @Meraki
+- @pndaproject
 
 
 ## How to get support ?
@@ -40,10 +41,10 @@ Reach to them on-site, or simply mention them in the CityZen Bots sypport room b
 
 - Cisco Spark: @rcronier, @omainada, @dhedoire, @stsfartz, @jonfiel, @ryweddle
 - Cisco Spark (Java SDK): @jmedved, @johnburn
-- IoX: 
-- IoT: @gfeige, @dgaumont
-- Meraki: @gfeige, @dgaumont, @cguynn
-- PaNDA: 
+- IoX:
+- IoT:
+- Meraki: 
+- PaNDA: @fbachet, @jegarnie
 - Tropo: @rcronier, @omainada, @dhedoire, @stsfartz, @jonfiel, @ryweddle
 
 - Recast.ai: 
@@ -101,8 +102,14 @@ By registering an endpoint, you will receive a JSON payload every minute, and fo
 
 The payload structure is [described here](http://developers.meraki.com/tagged/Location/chrono).
 
-
 Contact a Meraki mentor to have your endpoint start receiving the location payloads.
+
+
+# PNDA
+
+If you want to get more information regarding PNDA, you can check the PNDA website [pnda.io](http://pnda.io/) and the Github [pndaproject](https://github.com/pndaproject)
+
+Also, please find some information regarding the data set available for the hackathon [PNDA dataset](./pnda/data-set.md)
 
 
 ## Tropo
@@ -121,5 +128,4 @@ Submit your Tropo accout number in the Cisco Spark room to be activated.
 
 These Tropo phone numbers for France are Voice and Text enabled, and bidirectional.
 
-Reach to a Tropo mentor and explain your use case, in order to attach a French number to your application.
-
+Reach to a Tropo mentor and explain your use case, in order to attach a French number to your application
