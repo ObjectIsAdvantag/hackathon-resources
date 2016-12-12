@@ -283,7 +283,7 @@ Examples:
 
 ## NOISE sensors
 
-![NOISE sensors](./images/citizen_bots_pnda_noise.tiff)
+![NOISE sensors](./citizen_bots_pnda_noise.tiff)
 
 List all measurements zone:
 ```json
