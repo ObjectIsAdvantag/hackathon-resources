@@ -1,0 +1,27 @@
+<html>
+<head>
+  <meta charset="utf8">
+  <title>Recents Widget</title>
+  <link rel="stylesheet" href="https://code.s4d.io/widget-recents/production/main.css">
+</head>
+<body>
+
+  <div id="recents" />
+
+  <script src="https://code.s4d.io/widget-recents/production/bundle.js"></script>
+  <script>
+    var widgetElement = document.getElementById('recents');
+
+    // Initialize the Recents widget
+    ciscospark.widget(widgetElement).recentsWidget({
+      accessToken: 'SPARK_ACCESS_TOKEN'
+    });
+
+    // Register events
+    ciscospark.widget(widgetElement).on("rooms:selected", function(event) {
+        console.log("room " + event.data.id + " was selected");
+    });
+  </script>
+
+</body>
+</html>

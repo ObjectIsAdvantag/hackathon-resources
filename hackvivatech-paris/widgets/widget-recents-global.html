@@ -1,0 +1,34 @@
+<html>
+<head>
+  <meta charset="utf8">
+  <title>Recents Widget</title>
+  <link rel="stylesheet" href="https://code.s4d.io/widget-recents/production/main.css">
+  <style type="text/css">
+    .toast {
+      font-family: "Source Sans Pro", Hkelvetica, sans-serif;
+      font-size: 120%;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="recents" style="width: 300px; height: 500px;" />
+
+  <script src="https://code.s4d.io/widget-recents/production/bundle.js"></script>
+  <script>
+    var widgetElement = document.getElementById('recents');
+    // Initialize a new widget
+    var widget = ciscospark.widget(widgetElement).recentsWidget({
+      accessToken: 'SPARK_ACCESS_TOKEN',
+      onEvent: callback
+    });
+
+    function callback(type, event) {
+      if (type === 'rooms:selected') {
+        console.log("room " + event.data.id + " was selected");
+      }
+    }
+  </script>
+
+</body>
+</html>

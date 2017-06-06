@@ -1,0 +1,27 @@
+<html>
+
+<head>
+  <meta charset="utf8">
+  <title>Space Widget</title>
+  <link rel="stylesheet" href="https://code.s4d.io/widget-space/production/main.css">
+</head>
+
+<body>
+
+  <div id="space" style="width: 750px; height: 500px;" />
+
+  <script src="https://code.s4d.io/widget-space/production/bundle.js"></script>
+  <script>
+    var widgetElement = document.getElementById('space');
+
+    // Init a new widget
+    var widget = ciscospark.widget(widgetElement).spaceWidget({
+      accessToken: 'SPARK_ACCESS_TOKEN',
+      toPersonEmail: "CiscoDevNet@sparkbot.io"
+      //spaceId: "CISCO_SPARK_ROOM_IDENTIFIER"
+    });
+  </script>
+
+</body>
+
+</html>

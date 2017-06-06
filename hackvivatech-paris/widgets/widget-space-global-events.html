@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta charset="utf8">
+  <title>Space Widget</title>
+  <link rel="stylesheet" href="https://code.s4d.io/widget-space/production/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+  <style type="text/css">
+    .toast {
+      font-family: "Source Sans Pro", Helvetica, sans-serif;
+      font-size: 120%;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="space" style="width: 750px; height: 500px;" />
+
+  <script src="https://code.s4d.io/widget-space/production/bundle.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script>
+    var widgetElement = document.getElementById('space');
+
+    var widget = ciscospark.widget(widgetElement).spaceWidget({
+      accessToken: 'SPARK_ACCESS_TOKEN',
+      spaceId: 'CISCO_SPARK_ROOM_IDENTIFIER',
+      onEvent: callback
+    });
+
+    function callback(type, event) {
+      if (type !== "rooms:read") {
+        console.log("new event: " + type);
+        toastr.info('Event Received', type);
+      }
+    }
+  </script>
+
+</body>
+</html>
