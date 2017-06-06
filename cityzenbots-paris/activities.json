@@ -1,0 +1,72 @@
+[
+    {
+        "summary": "Ouverture et verre d'accueil",
+        "beginDate": "2016-12-09T18:00:00.000Z",
+        "beginDay": "friday",
+        "beginTime": "19:00",
+        "endDate": "2016-12-09T19:00:00.000Z",
+        "endDay": "friday",
+        "endTime": "20:00",
+        "duration": "1h"
+    },
+    {
+        "summary": "Message de bienvenue par BeMyApp",
+        "beginDate": "2016-12-09T19:00:00.000Z",
+        "beginDay": "friday",
+        "beginTime": "20:00",
+        "endDate": "2016-12-09T19:10:00.000Z",
+        "endDay": "friday",
+        "endTime": "20:10",
+        "duration": "10min"
+    },
+    {
+        "summary": "Présentation de City'Zen Bots",
+        "beginDate": "2016-12-09T19:10:00.000Z",
+        "beginDay": "friday",
+        "beginTime": "20:10",
+        "endDate": "2016-12-09T19:15:00.000Z",
+        "endDay": "friday",
+        "endTime": "20:15",
+        "duration": "5min"
+    },
+    {
+        "summary": "Technologies Cisco & uses-cases",
+        "beginDate": "2016-12-09T19:10:00.000Z",
+        "beginDay": "friday",
+        "beginTime": "20:15",
+        "endDate": "2016-12-09T19:15:00.000Z",
+        "endDay": "friday",
+        "endTime": "20:30",
+        "duration": "5min"
+    },
+    {
+        "summary": "Pitch des idées",
+        "beginDate": "2016-12-09T19:30:00.000Z",
+        "beginDay": "friday",
+        "beginTime": "20:30",
+        "endDate": "2016-12-09T19:45:00.000Z",
+        "endDay": "friday",
+        "endTime": "20:45",
+        "duration": "15min"
+    },
+    {
+        "summary": "Diner&Formationdeséquipes",
+        "beginDate": "2016-12-09T19:45:00.000Z",
+        "beginDay": "friday",
+        "beginTime": "20:45",
+        "endDate": "2016-12-09T20:00:00.000Z",
+        "endDay": "friday",
+        "endTime": "21:00",
+        "duration": "15min"
+    },
+    {
+        "summary": "Diner&Formationdeséquipes",
+        "beginDate": "2016-12-09T20:00:00.000Z",
+        "beginDay": "friday",
+        "beginTime": "21:00",
+        "endDate": "2016-12-10T08:00:00.000Z",
+        "endDay": "saturday",
+        "endTime": "9:00",
+        "duration": "12h"
+    }
+]
