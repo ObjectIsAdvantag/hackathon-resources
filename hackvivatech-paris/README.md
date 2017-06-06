@@ -50,6 +50,21 @@ OR
 
 ### Cisco Spark Video
 
+[Spark Widgets](https://developer.ciscospark.com/widgets.html): Integrate Spark functionality into your existing web apps with Widgets written in React
+- Space Widget: Calling (Audio and video 1:1 calling) and Messaging (Space and 1:1 messaging, Markdown support, File sharing, Message flags and ability to delete messages, Read receipts, Persistent chat),
+- Recents Widget: Recent Spark conversation list (spaces & people), Hooks to open a conversation with the Space Widget, Unread space highlighting, Event hooks for messages, calls, and memberships, Incoming call notifications
+
+[Spark SDK for JS](https://developer.ciscospark.com/sdk-for-javascript.html): Integrate Cisco Spark calling into your JavaScript applications. Place and receive video calls via the SDK: 
+- Audio and/or video 1:1 calling,
+- Dial by email or SIP address,
+- Call and event controls,
+- Audio and video call control
+
+[Spark SDK for iOS](https://developer.ciscospark.com/sdk-for-ios.html): Integrate Cisco Spark calling into your iOS apps. Place and receive Spark video calls: 
+- Audio and/or video 1:1 calling, 
+- Dial by email, Spark User ID, or SIP address,
+- Call and event controls, including DTMF
+- Audio and video call control
 
 
 ## CMX Starter Kit
