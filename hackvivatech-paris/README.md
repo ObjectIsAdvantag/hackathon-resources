@@ -9,6 +9,12 @@ It’s a madhouse of creative fun, with coding and marketing working together in
 Shine in front of tech leaders presenting your project "on stage".
 
 
+## How to share before the event
+
+Join the [Cisco Spark space](https://eurl.io/#rJ0s6PVMb), and chat with the mentors.
+
+
+
 ## Cisco Challenge
 
 **Event Experience: Reimagine the Digital Experience of Vivatech Attendees**
