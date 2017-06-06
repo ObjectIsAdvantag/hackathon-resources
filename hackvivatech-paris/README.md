@@ -28,7 +28,7 @@ Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room
 
 - Sign up for [Cisco Spark](https://www.ciscospark.com/) and reach to [Cisco Spark Web client](https://web.ciscospark.com/)
 - [optional] [Install a Spark client](https://www.ciscospark.com/downloads.html) on your laptop and/or mobile phone, and get instant access from all your devices
-- Sign in at [Spark for Developers] (https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your API access token.
+- Sign in at [Spark for Developers](https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your API access token.
 
 - Take the  [Cisco Spark Learning Track](https://learninglabs.cisco.com/tracks/collab-cloud) to learn to automate Cisco Spark and create Cisco Spark Applications (bots, OAUTH integrations).
 - Take the [Using Rooms & Messages Learning Lab](https://developer.ciscospark.com/samples-tutorials.html) at DevNet - Cisco Developer Network,
@@ -53,3 +53,8 @@ OR
 
 
 ## CMX Starter Kit
+
+### CMX getting started
+First of all and before going through a deep dive in the CMX infra made available for the VivaTech Deep Tech Hackathon, I recommend you start with the getting started [on DevNet](https://developer.cisco.com/site/cmx-mobility-services/). So then, you will be able to do the [4 learning labs](https://learninglabs.cisco.com/modules/dna-cmx-mse) which can be done within 1 hour. In those learning labs, you will go through the [CMX APIs](https://cmxlocationsandbox.cisco.com/apidocs/) and play with a live system using the [DevNet CMX Sandbox](https://cmxlocationsandbox.cisco.com/)
+
+### CMX resources and VivaTech infra details
