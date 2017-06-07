@@ -21,7 +21,7 @@ You can also create Spark Bots to automate routine tasks and inject contextual c
 ![](docs/img/hackvivatech-workshop-small.png)
 
 **<a href="docs/workshop.pdf" target="_blank">Check the workshop slides</a>**
-
+and if you want to access the recording of the meetup session, follow this [link](https://cisco.webex.com/ciscosales/lsr.php?RCID=919a134e5e6049cc8f9a7e1da20211c6) with password cA5Yi9Tc
 
 ## Cisco Spark Starter Kit
 
@@ -97,5 +97,8 @@ Then, you will be able to do the [4 learning labs](https://learninglabs.cisco.co
 
 In those learning labs, you will go through the [CMX APIs](https://cmxlocationsandbox.cisco.com/apidocs/) and play with a live system using the [DevNet CMX Sandbox](https://cmxlocationsandbox.cisco.com/)
 
+### Meetup session June 6th
+
+We hold a meetup the 6th of June, so you can ckeck the [slides](./docs/20170606-CMX-VivaTech-MeetUp.pdf) and also watch the [recording](https://cisco.webex.com/ciscosales/lsr.php?RCID=2683f6990baf4479a97da959a99a3168) with password JuneGNS2
 
 ### CMX resources and VivaTech infra details
