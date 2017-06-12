@@ -93,6 +93,10 @@ OR
 
 First of all and before going through a deep dive in the CMX infra made available for the VivaTech Deep Tech Hackathon, I recommend you start with the getting started [on DevNet](https://developer.cisco.com/site/cmx-mobility-services/). 
 
+You also have two webinars recording (in French):
+- CMX basics: https://communities.cisco.com/docs/DOC-71123
+- Advanced CMX, focus on BLE: https://communities.cisco.com/docs/DOC-70469
+
 Then, you will be able to do the [4 learning labs](https://learninglabs.cisco.com/modules/dna-cmx-mse) which can be completed in an hour. 
 
 In those learning labs, you will go through the [CMX APIs](https://cmxlocationsandbox.cisco.com/apidocs/) and play with a live system using the [DevNet CMX Sandbox](https://cmxlocationsandbox.cisco.com/)
