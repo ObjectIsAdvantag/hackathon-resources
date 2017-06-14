@@ -106,3 +106,12 @@ In those learning labs, you will go through the [CMX APIs](https://cmxlocationsa
 We hold a meetup the 6th of June, so you can ckeck the [slides](./docs/20170606-CMX-VivaTech-MeetUp.pdf) and also watch the [recording](https://cisco.webex.com/ciscosales/lsr.php?RCID=2683f6990baf4479a97da959a99a3168) with password JuneGNS2
 
 ### CMX resources and VivaTech infra details
+Coming soon
+
+## Mapwize
+As you know, Mapwise will be the reference application provided for the VivaTech event and so you will be able to take benefits of it for the hackathon.
+
+- If you want to access [the map of the event](https://maps.mapwize.io/#/v/vivatechnology) which is updated on a regular basis
+- [The mapwize API+SDK to access and use the event map](https://github.com/mapwize)
+- [Coming soon] A CMX-Location-Provider for the event: a server + client SDK to easily get the position of a device from CMX. We are preprocessing the CMX notification and making them available through sockets.
+- [Coming soon] Demo applications for web and mobile showing how to use CMX positioning with Mapwize
