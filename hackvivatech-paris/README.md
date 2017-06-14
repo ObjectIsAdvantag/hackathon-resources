@@ -93,6 +93,7 @@ OR
 
 First of all and before going through a deep dive in the CMX infra made available for the VivaTech Deep Tech Hackathon, I recommend you start with the getting started [on DevNet](https://developer.cisco.com/site/cmx-mobility-services/). 
 
+### Quick Start Sample Code!
 There is also a [sample code example here with Python & Node.js examples](https://github.com/cbleeker/CMX_Getting_Started_Code).  This repository contains sample code to get started with the Cisco CMX Wireless Location Analytics service in just a few minutes!
 
 It will allow you to:
@@ -104,6 +105,7 @@ It will allow you to:
   
 Checkout the [repo here](https://github.com/cbleeker/CMX_Getting_Started_Code) to quickly get started with CMX location services.
 
+### Learning Resources
 You also have two webinars recording (in French):
 - CMX basics: https://communities.cisco.com/docs/DOC-71123
 - Advanced CMX, focus on BLE: https://communities.cisco.com/docs/DOC-70469
