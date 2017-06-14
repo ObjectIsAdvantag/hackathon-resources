@@ -93,6 +93,17 @@ OR
 
 First of all and before going through a deep dive in the CMX infra made available for the VivaTech Deep Tech Hackathon, I recommend you start with the getting started [on DevNet](https://developer.cisco.com/site/cmx-mobility-services/). 
 
+There is also a [sample code example here with Python & Node.js examples](https://github.com/cbleeker/CMX_Getting_Started_Code).  This repository contains sample code to get started with the Cisco CMX Wireless Location Analytics service in just a few minutes!
+
+It will allow you to:
+  - Connect to a Cisco CMX Instance
+  - Retrieve the location of a device via mac address
+  - Get the details of that device's location including campus, building, and floor information
+  - Retrieve an the image and dimensions of the floorplan where the device is located
+  - Leverage native image libraries to generate a map showing where a device is currently located
+  
+Checkout the [repo here](https://github.com/cbleeker/CMX_Getting_Started_Code) to quickly get started with CMX location services.
+
 You also have two webinars recording (in French):
 - CMX basics: https://communities.cisco.com/docs/DOC-71123
 - Advanced CMX, focus on BLE: https://communities.cisco.com/docs/DOC-70469
@@ -106,3 +117,4 @@ In those learning labs, you will go through the [CMX APIs](https://cmxlocationsa
 We hold a meetup the 6th of June, so you can ckeck the [slides](./docs/20170606-CMX-VivaTech-MeetUp.pdf) and also watch the [recording](https://cisco.webex.com/ciscosales/lsr.php?RCID=2683f6990baf4479a97da959a99a3168) with password JuneGNS2
 
 ### CMX resources and VivaTech infra details
+The sample code resource [here](https://github.com/cbleeker/CMX_Getting_Started_Code) can be used to quickly get started on the VivaTech CMX infrastucture setup for this hackathon!  Details will be updated here on how to use it.
