@@ -106,17 +106,35 @@ It will allow you to:
 Checkout the [repo here](https://github.com/cbleeker/CMX_Getting_Started_Code) to quickly get started with CMX location services.
 
 ### Learning Resources
+
+There are [4 DevNet learning labs](https://learninglabs.cisco.com/modules/dna-cmx-mse) that can be completed in an hour that will greatly help you understand all that is available in CMX. 
+
+In those learning labs, you will go through the [CMX APIs](https://cmxlocationsandbox.cisco.com/apidocs/) and play with a live system using the [DevNet CMX Sandbox](https://cmxlocationsandbox.cisco.com/)
+
 You also have two webinars recording (in French):
 - CMX basics: https://communities.cisco.com/docs/DOC-71123
 - Advanced CMX, focus on BLE: https://communities.cisco.com/docs/DOC-70469
 
-Then, you will be able to do the [4 learning labs](https://learninglabs.cisco.com/modules/dna-cmx-mse) which can be completed in an hour. 
-
-In those learning labs, you will go through the [CMX APIs](https://cmxlocationsandbox.cisco.com/apidocs/) and play with a live system using the [DevNet CMX Sandbox](https://cmxlocationsandbox.cisco.com/)
-
 ### Meetup session June 6th
 
-We hold a meetup the 6th of June, so you can ckeck the [slides](./docs/20170606-CMX-VivaTech-MeetUp.pdf) and also watch the [recording](https://cisco.webex.com/ciscosales/lsr.php?RCID=2683f6990baf4479a97da959a99a3168) with password JuneGNS2
+We held a meetup the 6th of June, so you can ckeck the [slides](./docs/20170606-CMX-VivaTech-MeetUp.pdf) and also watch the [recording](https://cisco.webex.com/ciscosales/lsr.php?RCID=2683f6990baf4479a97da959a99a3168) with password JuneGNS2
 
 ### CMX resources and VivaTech infra details
-The sample code resource [here](https://github.com/cbleeker/CMX_Getting_Started_Code) can be used to quickly get started on the VivaTech CMX infrastucture setup for this hackathon!  Details will be updated here on how to use it.
+The sample code resource [here](https://github.com/cbleeker/CMX_Getting_Started_Code) can be used to quickly get started on the VivaTech CMX infrastucture setup for this hackathon! 
+
+Details to connect to the live VivaTech CMX infrastructure (read only credentials) are:
+
+baseCMXUrl=https://cmx.geekbleek.com
+CMXusername=hackaton
+CMXpassword=T@HT3mKC@hs1ht3Mkc@H
+
+So to run the sample code example given above, use the following for Node.js (macAddress is Casey's - come find me!):
+```
+macAddress=ac:bc:32:ac:9a:77 baseCMXUrl=https://cmx.geekbleek.com CMXusername=hackaton CMXpassword=T@HT3mKC@hs1ht3Mkc@H node sample.js
+```
+Or for python:
+```
+macAddress=ac:bc:32:ac:9a:77 baseCMXUrl=https://cmx.geekbleek.com CMXusername=hackaton CMXpassword=T@HT3mKC@hs1ht3Mkc@H python sample.py
+```
+
+To configure a stream of outbound Webhook notifications/events from CMX to your application, you must be an administrator on CMX.  While you can do this on our DevNet sandbox, we can only give out the readonly credentials for the VivaTech CMX.  If you would like to use a live stream of data from CMX for real-time applications please come talk to us (Casey Bleeker or Steve Sfartz) at the booth/hackathon support (or message us on Spark!  cbleeker@cisco.com or stsfartz@cisco.com) and we'll set up a live feed for you.
