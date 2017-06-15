@@ -1,6 +1,13 @@
 # Hack Vivatech (Paris June 16th, 17th)
 
-## What is it ?
+## Contents
+We have created the following resources for you to quickly get started:
+ - [What is it?](#what-is-it?)
+ - [Cisco Challenge](#cisco-challenge)
+ - [Cisco Spark Starter Kit](#cisco-spark-starter-kit)
+ - [Cisco CMX Starter Kit](#cmx-starter-kit)
+
+## What is it?
 
 A [25-hours marathon](https://vivatechnology.com/hackathon/) of product development, where diverse ideas collide and the best ones emerge as a new product or service. 
 
