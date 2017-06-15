@@ -2,7 +2,7 @@
 
 ## Contents
 We have created the following resources for you to quickly get started:
- - [What is it?](#what-is-it?)
+ - [What is it?](#what-is-it)
  - [Cisco Challenge](#cisco-challenge)
  - [Cisco Spark Starter Kit](#cisco-spark-starter-kit)
  - [Cisco CMX Starter Kit](#cmx-starter-kit)
