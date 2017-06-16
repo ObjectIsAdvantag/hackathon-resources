@@ -145,3 +145,17 @@ macAddress=ac:bc:32:ac:9a:77 baseCMXUrl=https://cmx.geekbleek.com CMXusername=ha
 ```
 
 To configure a stream of outbound Webhook notifications/events from CMX to your application, you must be an administrator on CMX.  While you can do this on our DevNet sandbox, we can only give out the readonly credentials for the VivaTech CMX.  If you would like to use a live stream of data from CMX for real-time applications please come talk to us (Casey Bleeker or Steve Sfartz) at the booth/hackathon support (or message us on Spark!  cbleeker@cisco.com or stsfartz@cisco.com) and we'll set up a live feed for you.
+
+### MapWize Resources
+
+MapWize is a Cisco partner who leverages the CMX data to provide real-time mapping solutions with excellent iOS, Android, and JavaScript SDK's!  They are powering the maps and wayfinding in the official VivaTech mobile apps.
+
+To view the VivaTechnology MapWize map: https://maps.mapwize.io/#/v/vivatechnology
+
+MapWize's Github repo with SDK's:  https://github.com/Mapwize/
+
+The MapWize Vivatech demo app (JS SDK):  http://mapwize-cmx-vivatech2017-demo.azurewebsites.net/app/
+Code of the MapWize Vivatech demo app (JS SDK): https://www.dropbox.com/s/buojon9n91odv2r/assettracking-cmx-demo-master.zip?dl=0
+
+A handy JS tool to get the local IP address of a mobile device in cordova.  This IP address can then be used with the sample code above to get the user's location from CMX.
+https://github.com/salbahra/cordova-plugin-networkinterface
