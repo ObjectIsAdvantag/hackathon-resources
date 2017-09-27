@@ -1,9 +1,9 @@
 # PixelsCamp 2017 - https://pixels.camp
 
 Summay of Cisco Presence:
-- Booth activities: Cisco Spark Board demoes and [Grab the bag!](https://developer.cisco.com/join/pixelscamp2017) activity
-- [Coding challenge](#coding)
-- ["Creating advanced Enterprise Bots" talk](https://github.com/PixelsCamp/talks/blob/master/2017/building-advanced-bots_steve_sfartz.md)
+- Booth: ["Grab the bag!" challenge](https://developer.cisco.com/join/pixelscamp2017) and Cisco Spark Board & Videos demoes 
+- [48h Coding challenge](#coding)
+- Talk ["Creating advanced Enterprise Bots"](https://github.com/PixelsCamp/talks/blob/master/2017/building-advanced-bots_steve_sfartz.md): friday at noon
 
 ![challenges](img/challenges.png)
 
@@ -19,7 +19,7 @@ Win a Cisco Meraki MR32 (Cloud Managed Wireless Access Point).
 
 - Thursday, 12h00: Cisco CMX Challenge starts
 
-- till Saturday, 11h00: Submit your hack via [Pending submission link]()
+- till Saturday, and before 11h00: Submit your hack via [Pending submission link]()
 
 - Saturday, 12h15: Pitches at Cisco booth
    - 3' pitch, 5' questions
@@ -50,12 +50,12 @@ Simply reach to the Cisco booth on-site, or fill in your [email here](https://eu
 - [DevNet Learning lab "Introduction to CMX"](https://learninglabs.cisco.com/modules/dna-cmx-mse/09-cmx-01-introduction-to-cmx/step/1
 )
 - CMX API endpoint at PixelsCamp
-   - https://53cdgr.cmxcisco.com
-   - Authorization: Basic cGl4ZWxzY2FtcEBjaXNjby5jb206cGl4ZWxzY2FtcDIwMTc=
+   - [Presence API documentation](https://www.cisco.com/c/en/us/td/docs/wireless/mse/cmxcloud/api/b_cmxcloud_api_reference/b-cmx-102-api-reference-guide_chapter_0100.html)
+   - HTTP Authorization header: Basic cGl4ZWxzY2FtcEBjaXNjby5jb206cGl4ZWxzY2FtcDIwMTc=
 
 - Example
     ```shell
-    curl -X GET -H "authorization: Basic cGl4ZWxzY2FtcEBjaXNjby5jb206cGl4ZWxzY2FtcDIwMTc=" https://53cdgr.cmxcisco.com/api/presence/v1/passerby/hourly/today?siteId=1477307415943
+    curl -X GET -H "authorization: Basic cGl4ZWxzY2FtcEBjaXNjby5jb206cGl4ZWxzY2FtcDIwMTc=" https://53cdgr.cmxcisco.com/api/presence/v1/clients?siteId=1505913182364
     ```
 
 ![cmx](img/cmx.png)
