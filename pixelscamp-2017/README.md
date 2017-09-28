@@ -5,6 +5,8 @@ Summay of Cisco Presence:
 - [48h Coding challenge](#coding)
 - Talk ["Creating advanced Enterprise Bots"](https://github.com/PixelsCamp/talks/blob/master/2017/building-advanced-bots_steve_sfartz.md): friday at noon
 
+**[join DevNet - Cisco's Developer Program](https://developer.cisco.com/join/pixelscamp2017)** to access Cisco Dev Centers, API learning resources, sandboxes and receive our newsletter.
+
 ![challenges](img/challenges.png)
 
 
@@ -64,6 +66,7 @@ Simply reach to the Cisco booth on-site, or fill in your [email here](https://eu
 
 ### Cisco Spark API resources
 
+- [Spark for Developers](https://developer.ciscospark.com): REST API documentation
 - [awesome-ciscospark](https://github.com/CiscoDevNet/awesome-ciscospark)
 - ["Create a Conversational Bot" learning lab](https://learninglabs.cisco.com/tracks/collab-cloud/spark-apps/collab-spark-botkit/step/1)
 
