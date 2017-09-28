@@ -61,6 +61,32 @@ Simply reach to the Cisco booth on-site, or fill in your [email here](https://eu
     curl -X GET -H "authorization: Basic cGl4ZWxzY2FtcEBjaXNjby5jb206cGl4ZWxzY2FtcDIwMTc=" https://53cdgr.cmxcisco.com/api/presence/v1/clients?siteId=1505913182364
     ```
 
+- Presence - Client details: [full json sample](presence_client_details.json)
+
+```json
+{
+    "macAddress": "74:5c:9f:63:99:c4",
+    "changedOn": 1506594349336,
+    "status": "CONNECTED",
+    "ipv4Address": "88.157.242.62",
+    "ipv6Address": null,
+    "ssid": "PixelsCamp",
+    "bytesReceived": 0,
+    "bytesSent": 0,
+    "lastSiteId": 1505913182364,
+    "currentSiteId": 1505913182364,
+    "rssi": -51,
+    "currentSiteName": "PixelsCamp",
+    "changedOnTimeStamp": "2017-09-28 10:25:336",
+    "lastApMacAddress": "f4:0f:1b:34:a9:a0",
+    "currentApMacAddress": "f4:0f:1b:34:a9:a0",
+    "currentApName": "AP_MainEvent_9",
+    "lastApName": "AP_MainEvent_9",
+    "lastSiteName": "PixelsCamp"
+}
+```
+
+
 ![cmx](img/cmx.png)
 
 
@@ -71,3 +97,4 @@ Simply reach to the Cisco booth on-site, or fill in your [email here](https://eu
 - ["Create a Conversational Bot" learning lab](https://learninglabs.cisco.com/tracks/collab-cloud/spark-apps/collab-spark-botkit/step/1)
 
 ![convos](img/botkit_convos.png)
+
