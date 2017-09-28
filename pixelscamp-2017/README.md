@@ -61,6 +61,8 @@ Simply reach to the Cisco booth on-site, or fill in your [email here](https://eu
     curl -X GET -H "authorization: Basic cGl4ZWxzY2FtcEBjaXNjby5jb206cGl4ZWxzY2FtcDIwMTc=" https://53cdgr.cmxcisco.com/api/presence/v1/clients?siteId=1505913182364
     ```
 
+    Note that the siteId filter above does not seem to be effective. Then you'll need to filter out the clients that do not belong to PixelsCamp infrastructure: '1505913182364'
+    
 - Presence - Client details: [full json sample](presence_client_details.json)
 
 ```json
