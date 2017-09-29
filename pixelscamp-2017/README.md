@@ -14,7 +14,7 @@ Summay of Cisco Presence:
 
 Create the best PixelsCamp event dashboard.
 
-Win a Cisco Meraki MR32 (Cloud Managed Wireless Access Point).
+Win a Cisco Meraki MR53 (Cloud Managed Wireless Access Point).
 
 
 ### Schedule
@@ -43,7 +43,7 @@ Simply reach to the Cisco booth on-site, or fill in your [email here](https://eu
 
 - UX/Design of the dashboard
 - Relevance of information (CMX Data)
-- Published on Github as an Apache or MIT License
+- Published on Github under an Apache or MIT License
 - Bonus: use of [Cisco Spark APIs](https://developer.ciscospark.com/) (for Chatops, Bots or Video)
 
 
@@ -62,7 +62,7 @@ Simply reach to the Cisco booth on-site, or fill in your [email here](https://eu
     ```
 
     Note that the siteId filter above does not seem to be effective. Then you'll need to filter out the clients that do not belong to PixelsCamp infrastructure: '1505913182364'
-    
+
 - Presence - Client details: [full json sample](presence_client_details.json)
 
 ```json
@@ -87,6 +87,10 @@ Simply reach to the Cisco booth on-site, or fill in your [email here](https://eu
     "lastSiteName": "PixelsCamp"
 }
 ```
+
+- Location of the various access points
+
+![locations](img/access_points_locations.png)
 
 
 ![cmx](img/cmx.png)
