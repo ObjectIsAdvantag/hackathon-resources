@@ -21,7 +21,7 @@ Win a Cisco Meraki MR53 (Cloud Managed Wireless Access Point).
 
 - Thursday, 12h00: Cisco CMX Challenge starts
 
-- till Saturday, 11h00: Coding time... make sure to [submit your hack by 11AM on saturday](https://app.smartsheet.com/b/home?lx=jCXQT44nQI9bjvDBjhX5wg), we'll come back to you with a slot to pitch (check below)
+- till Saturday, 11h00: Coding time... make sure to [submit your hack by 11AM on saturday](https://app.smartsheet.com/b/form/04ed4a7c44c74cfb98e0f87a0dc96f42), we'll come back to you with a slot to pitch (check below)
 
 - Saturday, 12h15: Pitches at Cisco booth
    - 3' pitch, 5' questions
