@@ -25,12 +25,10 @@ Win a Cisco Meraki MR53 (Cloud Managed Wireless Access Point).
 
 - Saturday, 12h15: Pitches at Cisco booth
    - 3' pitch, 5' questions
-   - 12h20: team name
-   - 12h30: team name
-   - 12h40: team name
-   - 12h50: team name
-   - 13h00: team name
-
+   
+   - **12h30: Pixels Wi-FI**
+   - **12h45: Cisco Dashboard**
+   
 - Saturday, 13h30: Winner announced at Cisco booth
 
 
