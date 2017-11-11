@@ -32,7 +32,7 @@ Invent a new Hospital experience: leverage Cisco's next generation collaboration
 
 ## Support 
 
-Simply reach to the Cisco booth on-site, and fill in your [email here](https://eurl.io/#HkCI0ZR0) to join the Cisco Spark "LauzHack - Cisco challenge - Tech Support" space.
+Simply reach to the Cisco booth on-site, and fill in your [email here](https://eurl.io/#HkCI0ZR0-) to join the Cisco Spark "LauzHack - Cisco challenge - Tech Support" space.
 
 Note that a public support Space is also accessible 24/7 at https://developer.ciscospark.com/support.html.
 
