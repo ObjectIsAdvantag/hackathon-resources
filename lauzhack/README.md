@@ -16,18 +16,12 @@ Invent a new Hospital experience: leverage Cisco's next generation collaboration
 
 - Saturday, 12h00: Cisco CMX Challenge starts
 
-- till Sunday, 12h00: Coding time... make sure to [submit your hack by 11AM on saturday](), we'll come back to you with a slot to pitch (check below)
+- till Sunday, 12h00: Coding time... make sure to [submit your hack by 11AM on saturday](https://app.smartsheet.com/b/form/04ed4a7c44c74cfb98e0f87a0dc96f42), we'll come back to you with a slot to pitch (check below)
 
-- Sunday, 12h15: Pitches at the Cisco booth
+- Sunday, 12h30: Pitches at the Cisco booth
    - 3' pitch, 5' questions
    
-   - **12h15: Team A**
-   - **12h25: Team B**
-   - **12h35: Team C**
-   - **12h45: Team D**
-   - **12h55: Team E**
-
-- Saturday, 13h30: Winner announced at Cisco booth
+- Saturday, 15h00: Winner announced during the closing ceremony
 
 
 ## Support 
