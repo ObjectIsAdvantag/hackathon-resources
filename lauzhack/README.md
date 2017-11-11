@@ -5,13 +5,14 @@
 
 ## <a name="coding"></a>Coding Challenge
 
-Invent a new Hospital experience: leverage next generation collaboration tools to optimize the journey of patients and doctors
+Invent a new Hospital experience: leverage Cisco's next generation collaboration tools to optimize the journey of patients and doctors
+
+**UPDATE: download the [workshop presentation](docs/workshop-devnet-spark.pdf)**
 
 
+## Schedule
 
-### Schedule
-
-- Saturday, 11h20: Cisco Workshop
+- Saturday, 11h00: Cisco Workshop - we'll present the provided data set and the technical resources. 
 
 - Saturday, 12h00: Cisco CMX Challenge starts
 
@@ -29,9 +30,11 @@ Invent a new Hospital experience: leverage next generation collaboration tools t
 - Saturday, 13h30: Winner announced at Cisco booth
 
 
-### Support 
+## Support 
 
-Simply reach to the Cisco booth on-site, or fill in your [email here](https://eurl.io/#HkCI0ZR0) to join the Cisco Spark "LauzHack - Cisco challenge - Tech Support" space.
+Simply reach to the Cisco booth on-site, and fill in your [email here](https://eurl.io/#HkCI0ZR0) to join the Cisco Spark "LauzHack - Cisco challenge - Tech Support" space.
+
+Note that a public support Space is also accessible 24/7 at https://developer.ciscospark.com/support.html.
 
 
 ### Judging criteria
@@ -43,8 +46,19 @@ Simply reach to the Cisco booth on-site, or fill in your [email here](https://eu
 
 ### Cisco Spark API resources
 
-- [Spark for Developers](https://developer.ciscospark.com): REST API documentation
-- [awesome-ciscospark](https://github.com/CiscoDevNet/awesome-ciscospark)
-- ["Create a Conversational Bot" learning lab](https://learninglabs.cisco.com/tracks/collab-cloud/spark-apps/collab-spark-botkit/step/1)
+Welcome to the Cisco Spark platform!
 
-![convos](img/botkit_convos.png)
+To start with, read through the [on-boarding instructions](https://github.com/ObjectIsAdvantag/hackathon-resources#cisco-spark-starter-guide-chat-calls-meetings): you will get guidance to create a developer account, and discover the developer resources listed for the various use cases: Spaces automation, doing ChatOps, creating Enterprise Bots and OAuth integrations.
+
+Note that in order to embed Calls into your apps, you can use one of the provided SDKs: [SDK for Browsers](https://developer.ciscospark.com/sdk-for-browsers.html), the [SDK for iOS](https://developer.ciscospark.com/sdk-for-ios.html). 
+Moreover, don't miss the React Widget: it will let you easilly embed a full-featured Spark space into your app. 
+
+Finally during this hackathon, we propose the Spark SDK "guest mode" feature in early access. Reach to your mentors for further informations and technical resources.
+
+
+## Resources related to the business case
+
+For the purpose of the event, we provide:
+- an example of stickers, attached to patients admissions
+- a data set composed of the various info transmitted of collected during patients journey,
+- as well as a diagram of how these data would fit all together

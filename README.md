@@ -5,22 +5,24 @@ Resources for various hackathons and conferences I happened to support
 
 # Cisco Spark Cloud Collaboration APIs
 
-## Cisco Spark Starter Guide (Chat, Calls, Meetings)
+## Cisco Spark Starter Guide (ChatOps, Bots, Video Calls and Meetings)
 
 **Note that Cisco Spark trial gives you free Chating, Audio & Video calls to other Spark users, and meetings with up to 3 members (Chat, Video, Shared-board), 
 everything you learn during the hackathon about Spark API, you can reuse after.
 Moreover, Spark API support is free, 24/24, 7/7, via [email and #spark4devs room](https://developer.ciscospark.com/support.html)**
 
+To get started with Cisco Spark:
 - Sign up for [Cisco Spark](https://www.ciscospark.com/) and reach to [Cisco Spark Web client](https://web.ciscospark.com/)
 - [optional] [Install a Spark client](https://www.ciscospark.com/downloads.html) on your laptop and/or mobile phone, and get instant access from all your devices
 - Sign in at [Spark for Developers] (https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your API access token.
 
-- Take the  [Cisco Spark Learning Track](https://learninglabs.cisco.com/tracks/collab-cloud) to learn to automate Cisco Spark and create Cisco Spark Applications (bots, OAUTH integrations).
-- Take the [Using Rooms & Messages Learning Lab](https://developer.ciscospark.com/samples-tutorials.html) at DevNet - Cisco Developer Network,
-- [Experiment a Cisco Spark bot](https://github.com/ObjectIsAdvantag/sparkbot-webhook-samples) in nodejs,
-- [optional] import the [Postman collection](https://github.com/CiscoDevNet/postman-ciscospark) for CiscoSpark to quickly generate code,
-- Check [awesome resources](https://github.com/CiscoDevNet/awesome-ciscospark) to get code samples and SDKs in various languages,
-- Look for more resources in the [Sparkers'community on devNet](https://developer.cisco.com/site/spark).
+Now, you're ready to test the Cisco Spark APIs:
+- Take this [Cisco Spark learning track](https://learninglabs.cisco.com/tracks/collab-cloud) to learn to automate Cisco Spark and create Cisco Spark Applications (Bots and OAUTH integrations).
+- a popular tutorial to create bots for Cisco Spark is: ["Create a Conversational Bot" learning lab](https://learninglabs.cisco.com/tracks/collab-cloud/spark-apps/collab-spark-botkit/step/1). - DevNet learning labs: these tutorials explain how to create Spaces and post messages into these, but also how to create Bots and embed Video into existing apps. Check the extensive tracks in [NodeJS]() and [Python]() that covers common use cases (Automation, Bots and Embedding Video).
+
+Finally, here are extra resources other developers generally find handy:
+- import the [Postman collection](https://github.com/CiscoDevNet/postman-ciscospark) for CiscoSpark to quickly generate code,
+- check the [awesome-ciscospark catalog of resources](https://github.com/CiscoDevNet/awesome-ciscospark): this community library of developer resources lists client SDKS and bot frameworks for popular programming languages. It also references existing examples and usefull tools to code against the Cisco Spark APIs.
 
 
 ## Tropo Starter Guide (Voice & SMS phone communications)
@@ -56,5 +58,5 @@ Here are a few resources to help you start:
 - [Tropo-uses-cases](http://usecases.tropo.com/) 
 - [Tropo-scripting-reference](https://www.tropo.com/docs/scripting/reference) 
 - [Tropo ChatOps](https://www.tropo.com/2016/06/devops-follow-tropo-spark/) 
-- [Tropo/Spark workshop CLUS 2016](http://www.slideshare.net/CiscoDevNet/cisco-spark-tropo-api-workshop/5) 
+- [Tropo/Spark workshop CLUS](http://www.slideshare.net/CiscoDevNet/cisco-spark-tropo-api-workshop/5) 
 
