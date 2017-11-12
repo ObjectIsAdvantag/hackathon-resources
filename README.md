@@ -17,15 +17,15 @@ To get started with Cisco Spark:
 - Sign in at [Spark for Developers] (https://developer.ciscospark.com) with your Spark account credentials (same as the ones above). This is where you'll get your API access token.
 
 Now, you're ready to test the Cisco Spark APIs:
-- Take this [Cisco Spark learning track](https://learninglabs.cisco.com/tracks/collab-cloud) to learn to automate Cisco Spark and create Cisco Spark Applications (Bots and OAUTH integrations).
-- a popular tutorial to create bots for Cisco Spark is: ["Create a Conversational Bot" learning lab](https://learninglabs.cisco.com/tracks/collab-cloud/spark-apps/collab-spark-botkit/step/1). 
-- a few examples of HTML code embedding the Spark Widgets is available [here](https://github.com/ObjectIsAdvantag/hackathon-resources/tree/master/hackvivatech-paris/widgets)
-- DevNet learning labs: these tutorials explain how to create Spaces and post messages into these, but also how to create Bots and embed Video into existing apps. Check the extensive tracks in [NodeJS](https://learninglabs.cisco.com/tracks/devnet-express-cloud-collab-soft-dev) and [Python](https://learninglabs.cisco.com/tracks/devnet-express-cloud-collab-it-pro) that covers common use cases (Automation, Bots and Embedding Video).
-
+- Take this popular tutorial to create bots for Cisco Spark ["Create a Conversational Bot" learning lab](https://learninglabs.cisco.com/tracks/collab-cloud/spark-apps/collab-spark-botkit/step/1). 
+- Open these examples of HTML code that [embed the Spark Widgets](https://github.com/ObjectIsAdvantag/hackathon-resources/tree/master/hackvivatech-paris/widgets)
+- DevNet learning labs: these tutorials explain how to create Spaces and post messages into these, but also how to create Bots and embed Video into existing apps.
+   - Get a glimpse of what the APIs provide (Bots and OAuth integrations)[Cisco Spark learning track](https://learninglabs.cisco.com/tracks/collab-cloud)
+   - Check the extensive tracks in [NodeJS](https://learninglabs.cisco.com/tracks/devnet-express-cloud-collab-soft-dev) and [Python](https://learninglabs.cisco.com/tracks/devnet-express-cloud-collab-it-pro) that covers common use cases (Automation, Bots and Embedding Video).
 
 Finally, here are extra resources other developers generally find handy:
-- import the [Postman collection](https://github.com/CiscoDevNet/postman-ciscospark) for CiscoSpark to quickly generate code,
-- check the [awesome-ciscospark catalog of resources](https://github.com/CiscoDevNet/awesome-ciscospark): this community library of developer resources lists client SDKS and bot frameworks for popular programming languages. It also references existing examples and usefull tools to code against the Cisco Spark APIs.
+- [awesome-ciscospark catalog of resources](https://github.com/CiscoDevNet/awesome-ciscospark): this community library of developer resources lists **client SDKS and bot frameworks** for popular programming languages. It also references **existing examples and usefull tools** to code against the Cisco Spark APIs.
+- import the [Full scripted Postman collection](https://github.com/CiscoDevNet/postman-ciscospark) to quickly run Cisco Spark requests or generate code of your own
 
 
 ## Tropo Starter Guide (Voice & SMS phone communications)
