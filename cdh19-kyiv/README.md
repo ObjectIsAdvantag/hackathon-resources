@@ -9,6 +9,13 @@ This workshop requires:
  - Cisco DevNet account, register [by link](https://developer.cisco.com/join/kyiv0319) 
  - Webex Team account – sign up at [https://www.webex.com/](https://www.webex.com/) Communication through [this Webex space](https://eurl.io/#BJaDYXtPN)  
 
+To access some sandbox/services you will need to use Cisco AnyConnect:
+ - For Mac and Windows, you can download [here](https://developer.cisco.com/site/sandbox/anyconnect/)
+ - For Linux, install OpenConnect, [see here](https://developer.cisco.com/learning/modules/dev-setup/dev-ubuntu/step/7)
+ 
+
+_Your final task is to show the prototype of an application/program/script that extends or complements the capabilities of Cisco products and solutions._
+
 You can choose one (main) directions:
 
   - [Wireless programmability](#цireless-programmability)
