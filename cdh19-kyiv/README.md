@@ -3,7 +3,7 @@
 Welcome to the Cisco Technical Resources repo for cdh19-kyiv.
 In this repo you'll find developer resources to quickly get started with Cisco technologies and APIs.
 
-Registration and shedule of the hackathon you can find [here](https://www.cisco.com/c/m/uk_ua/training-events/2018/hackathon/index.html)
+Registration and schedule of the hackathon you can find [here](https://www.cisco.com/c/m/uk_ua/training-events/2018/hackathon/index.html)
 
 This workshop requires: 
  - Cisco DevNet account, register [by link](https://developer.cisco.com/join/kyiv0319) 
