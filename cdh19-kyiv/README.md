@@ -1,7 +1,7 @@
 # Cisco DevNet Hackathon 2019 (Kyiv, Ukraine | 23-24 March)
 
 Welcome to the Cisco Technical Resources repo for cdh19-kyiv.
-You'll find hereafter developer resources to quickly get started with Cisco technologies and APIs:
+In this repo you'll find developer resources to quickly get started with Cisco technologies and APIs.
 
 Registration and shedule of the hackathon you can find [here](https://www.cisco.com/c/m/uk_ua/training-events/2018/hackathon/index.html)
 
