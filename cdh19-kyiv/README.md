@@ -9,6 +9,7 @@ This workshop requires:
  - Cisco DevNet account, register [by link](https://developer.cisco.com/join/kyiv0319) 
  - Webex Team account – sign up at [https://www.webex.com/](https://www.webex.com/) Communication through [this Webex space](https://eurl.io/#BJaDYXtPN)  
    (we recommend join [Webex space for developers](https://developer.cisco.com/site/spark-chat/) (DevNet Developer Support & Webex Developer Support), there you can interact with our dev community)
+
 To access some sandbox/services you will need to use Cisco AnyConnect:
  - For Mac and Windows, you can download [here](https://developer.cisco.com/site/sandbox/anyconnect/)
  - For Linux, install OpenConnect, [see here](https://developer.cisco.com/learning/modules/dev-setup/dev-ubuntu/step/7)
